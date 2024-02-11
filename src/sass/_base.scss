@@ -1,0 +1,15 @@
+*::before,
+*::after,
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: $font-size;
+}
+
+body {
+    font-family: $font-family;
+    background-color: $background-color;
+    color: $color;
+}
